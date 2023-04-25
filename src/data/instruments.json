@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Power meters",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  { "name": "Camera", "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+  { "name": "Laser", "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+  {
+    "name": "Oscilloscope",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "name": "Linear Stages",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "name": "Polarization Controllers",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  { "name": "Sensors", "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+  {
+    "name": "Optical Spectrum Analyzers",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  }
+]
