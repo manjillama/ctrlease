@@ -47,7 +47,7 @@ const Footer = () => {
                 className="p-2 my-4 outline-teal-600 border-2 border-slate-400 rounded w-full"
               />
               <button
-                className="p-2 bg-teal-600 rounded w-full text-white text-center hover:bg-teal-700 disabled:bg-teal-600 disabled:opacity-75"
+                className="p-2 bg-gray-900 rounded w-full text-white text-center hover:bg-black disabled:bg-gray-500"
                 type="submit"
                 disabled={submitting}
               >

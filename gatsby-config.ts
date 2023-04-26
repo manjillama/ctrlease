@@ -6,7 +6,7 @@ require('dotenv').config({
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Ctrl Ease`,
+    title: `Ctrl Ease - Helping you communicate with your hardware.`,
     description: `We provide high-level APIs to access your hardware, making instrumentation accessible to any scientist and engineer. With reusable building blocks of code, scientists and engineers will spend less time interfacing with instruments but more time utilizing their devices.`,
     image: `/meta-image.jpg`,
     siteUrl: process.env.SITE_URL,
