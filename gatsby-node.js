@@ -16,7 +16,7 @@ exports.createPages = async ({ graphql, actions }) => {
   data.resources.nodes.forEach((node) => {
     actions.createPage({
       path: `/resources/${node.frontmatter.slug}`,
-      component: path.resolve(`./src/components/templates/resource-detail.tsx`),
+      component: path.resolve(`./src/templates/resource-detail.tsx`),
       context: {
         slug: node.frontmatter.slug,
       },
