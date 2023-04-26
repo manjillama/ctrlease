@@ -10,7 +10,7 @@ const IndexPage: React.FC<PageProps> = ({ params }) => {
 
   return (
     <Layout>
-      <div className="text-center py-10">
+      <div className="text-center">
         <div className="text-2xl font-bold">Whateves</div>
       </div>
     </Layout>

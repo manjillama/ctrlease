@@ -16,7 +16,7 @@ const boxColors = [
 
 const InstrumentsBoxes = ({ instruments }: { instruments: IInstrument[] }) => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 max-w-[768px] mx-auto py-10">
+    <div className="grid grid-cols-1 sm:grid-cols-2 max-w-[768px] mx-auto pt-10">
       {instruments.map((instrument, i) => (
         <Link key={instrument.slug} to={`/instruments/${instrument.slug}`}>
           <div className="my-8 flex mr-4">

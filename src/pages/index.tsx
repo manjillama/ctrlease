@@ -16,7 +16,7 @@ const IndexPage: React.FC<
 
   return (
     <Layout>
-      <div className="text-center py-10">
+      <div className="text-center pb-10">
         <div className="text-2xl font-bold">Devices</div>
         <p className="text-slate-500">Helping you communicate with your hardware.</p>
       </div>

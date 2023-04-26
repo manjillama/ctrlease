@@ -6,7 +6,7 @@ const Searchbar = () => {
     <div className="mx-auto max-w-2xl relative">
       <input
         type="text"
-        placeholder="Seach available instruments e.g. Function Generator"
+        placeholder="Seach available instruments e.g. Linear Stages"
         className="p-2 outline-teal-600 border-2 border-slate-400 rounded w-full"
       />
       <FiSearch className="absolute right-[8px] top-[8px] right-0" size={24} />
