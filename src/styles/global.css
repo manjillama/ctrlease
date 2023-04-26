@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+.heart {
+  color: #eb5e28;
+  animation: hearthing 1s ease infinite;
+}
+@keyframes hearthing {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(0.8);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .customButtonContainerClass {
   top: 38px !important;
   margin-right: 8px;

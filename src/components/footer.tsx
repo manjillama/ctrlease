@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Spinner } from './spinner';
+import DevCredit from './dev-credit';
 
 const Footer = () => {
   const [email, setEmail] = useState('');
@@ -56,6 +57,12 @@ const Footer = () => {
             </div>
           )}
         </form>
+      </div>
+      <div className="px-4 pt-6 flex flex-col md:flex-row justify-between text-center">
+        <p>Copyright &copy; {new Date().getFullYear()} CtrlEase </p>
+        <div className="md:mx-0 mx-auto">
+          <DevCredit />
+        </div>
       </div>
     </footer>
   );
