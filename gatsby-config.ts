@@ -1,15 +1,27 @@
 import type { GatsbyConfig } from 'gatsby';
 
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `My Demo Site`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `Ctrl Ease`,
+    description: `We provide high-level APIs to access your hardware, making instrumentation accessible to any scientist and engineer. With reusable building blocks of code, scientists and engineers will spend less time interfacing with instruments but more time utilizing their devices.`,
+    image: `/meta-image.jpg`,
+    siteUrl: process.env.SITE_URL,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        icon: 'src/images/logo.svg',
+      },
+    },
     'gatsby-plugin-postcss',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-image',
@@ -26,8 +38,8 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `resources`,
-        path: `${__dirname}/src/resources/`,
+        name: `drivers`,
+        path: `${__dirname}/src/drivers/`,
       },
     },
     {

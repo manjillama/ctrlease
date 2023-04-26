@@ -1,49 +1,32 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby Minimal TypeScript Starter
+  CTRL EASE
 </h1>
 
-## 🚀 Quick start
+## Project Introduction
 
-1.  **Create a Gatsby site.**
+**CTRL EASE** aims to provide high-level APIs to access your hardware, making instrumentation accessible to any scientist and engineer. With reusable building blocks of code, scientists and engineers will spend less time interfacing with instruments but more time utilizing their devices.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+### Configuration
+
+In the root project folder, copy the `.env.example` and save as `.env.development`. Update the variables.
+
+### Install dependencies
+
+Inside the root project root folder.
+
+```bash
+$ npm install
+```
+
+### Start developing
+
+    Navigate into root folder and start it up.
 
     ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby -- -ts
-    ```
-
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-gatsby-site/
+    cd ctrlease/
     npm run develop
     ```
 
-3.  **Open the code and start customizing!**
+## Legal
 
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.tsx` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+© Ctrl Ease. All rights reserved.

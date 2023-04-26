@@ -3,7 +3,7 @@ title: Awesome Blog Post Title
 slug: awesome-blog
 author: Nikola
 date: 2020-07-15
-instrument: Laser
+instrument: laser
 ---
 
 ## Introduction to my blog post

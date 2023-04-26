@@ -1,25 +1,42 @@
 [
   {
     "name": "Power meters",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "slug": "power-meters"
   },
-  { "name": "Camera", "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
-  { "name": "Laser", "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+  {
+    "name": "Camera",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "slug": "camera"
+  },
+  {
+    "name": "Laser",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "slug": "laser"
+  },
   {
     "name": "Oscilloscope",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "slug": "oscilloscope"
   },
   {
     "name": "Linear Stages",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "slug": "linear-stages"
   },
   {
     "name": "Polarization Controllers",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "slug": "polarization-controllers"
   },
-  { "name": "Sensors", "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+  {
+    "name": "Sensors",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "slug": "sensors"
+  },
   {
     "name": "Optical Spectrum Analyzers",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "slug": "optical-spectrum-analyzers"
   }
 ]
