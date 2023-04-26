@@ -21,7 +21,7 @@ const InstrumentsBoxes = ({ instruments }: { instruments: IInstrument[] }) => {
         <Link key={instrument.slug} to={`/instruments/${instrument.slug}`}>
           <div className="my-8 flex mr-4">
             <div
-              className={`shrink-0 w-12 h-12 text-white font-bold text-center leading-[48px] rounded ${
+              className={`shrink-0 w-12 h-12 mt-[6px] text-white font-bold text-center leading-[48px] rounded ${
                 boxColors[i] || 'bg-emerald-500'
               }`}
             >

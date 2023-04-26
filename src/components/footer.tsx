@@ -59,7 +59,7 @@ const Footer = () => {
         </form>
       </div>
       <div className="px-4 pt-6 flex flex-col md:flex-row justify-between text-center">
-        <p>Copyright &copy; {new Date().getFullYear()} CtrlEase </p>
+        <p className="mb-1">Copyright &copy; {new Date().getFullYear()} CtrlEase </p>
         <div className="md:mx-0 mx-auto">
           <DevCredit />
         </div>
