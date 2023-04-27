@@ -20,7 +20,7 @@ const ContactPage = () => (
         </a>
       </p>
       <p className="flex items-center mb-4">
-        <HiLocationMarker size={24} className="mr-2" /> <span>6515 Longshore Loop STE 100 Dublin, OH 43017</span>
+        <HiLocationMarker size={24} className="mr-2" /> <span>1027 Flatbush Ave, Brooklyn, NY 11226</span>
       </p>
     </div>
   </Layout>

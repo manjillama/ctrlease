@@ -6,14 +6,14 @@ import Logo from '../images/logo.svg';
 
 const Footer = () => {
   return (
-    <footer className="py-8 bg-slate-100">
+    <footer className="py-10 bg-black">
       <div className="mx-auto max-w-[1280px]">
         <div className="mx-auto max-w-[250px]">
           <NewsletterForm />
         </div>
         <div className="px-4 pt-6 flex flex-col md:flex-row justify-between text-center">
-          <p className="mb-1 text-xs text-slate-500">Copyright &copy; {new Date().getFullYear()} CtrlEase </p>
-          <div className="md:mx-0 mx-auto text-xs text-slate-500">
+          <p className="mb-1 text-xs text-gray-50">Copyright &copy; {new Date().getFullYear()} CtrlEase </p>
+          <div className="md:mx-0 mx-auto text-xs text-gray-50">
             <DevCredit />
           </div>
         </div>
