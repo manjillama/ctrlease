@@ -1,12 +1,12 @@
 export const instrumentBoxColors = [
-  'bg-amber-400',
-  'bg-fuchsia-400',
-  'bg-red-500',
+  '#E7A95C',
+  '#84cc16',
+  '#D95364',
   'bg-teal-500',
-  'bg-emerald-500',
-  'bg-purple-500',
-  'bg-cyan-500',
-  'bg-rose-400',
+  '#5BB194',
+  '#CD64DE',
+  '#8F5EF0',
+  '#0ea5e9',
 ];
 
 export const getWordInitials = (word: string) => {

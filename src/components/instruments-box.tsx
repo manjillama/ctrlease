@@ -31,10 +31,12 @@ const InstrumentsBoxes = ({ instruments }: { instruments: IInstrument[] }) => {
           <Link key={instrument.slug} to={`/instruments/${instrument.slug}`}>
             <div className="my-8 flex mr-4">
               <div
-                className={`shrink-0 w-14 h-14 mt-[6px] text-white font-bold text-center leading-[54px] rounded ${
-                  instrumentBoxColors[Math.floor(instrument.name.length % instrumentBoxColors.length)] ||
-                  'bg-emerald-500'
-                }`}
+                style={{
+                  backgroundColor: `${
+                    instrumentBoxColors[Math.floor(instrument.name.length % instrumentBoxColors.length)] || '#5BB194'
+                  }`,
+                }}
+                className={`shrink-0 w-14 h-14 mt-[6px] text-white font-bold text-center leading-[54px] rounded `}
               >
                 {getWordInitials(instrument.name)}
               </div>

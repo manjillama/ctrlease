@@ -15,9 +15,12 @@ export default function DriverDetail({ data }: any) {
       <div className="max-w-[1024px] mx-auto">
         <div className="flex pb-6 border-slate-300 border-b">
           <div
-            className={`shrink-0 w-14 h-14 mt-[6px] text-white font-bold text-center leading-[54px] rounded ${
-              instrumentBoxColors[Math.floor(name.length % instrumentBoxColors.length)] || 'bg-emerald-500'
-            }`}
+            style={{
+              backgroundColor: `${
+                instrumentBoxColors[Math.floor(name.length % instrumentBoxColors.length)] || '#5BB194'
+              }`,
+            }}
+            className={`shrink-0 w-14 h-14 mt-[6px] text-white font-bold text-center leading-[54px] rounded`}
           >
             {getWordInitials(name)}
           </div>
