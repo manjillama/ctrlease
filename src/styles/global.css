@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  background-color: #f1f5f9;
+}
+.driver-detail h1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.driver-detail h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.driver-detail h3 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
 .heart {
   color: #eb5e28;
   animation: hearthing 1s ease infinite;

@@ -1,7 +1,6 @@
 import * as React from 'react';
-import { HeadFC, Link, PageProps } from 'gatsby';
+import { HeadFC, PageProps } from 'gatsby';
 import Layout from '../components/layout';
-import Searchbar from '../components/searchbar';
 import { graphql } from 'gatsby';
 import { IInstrument } from '../interfaces';
 import InstrumentsBoxes from '../components/instruments-box';
@@ -20,7 +19,7 @@ const IndexPage: React.FC<
         <div className="text-2xl font-bold">Devices</div>
         <p className="text-slate-500">Helping you communicate with your hardware.</p>
       </div>
-      <Searchbar />
+      {/* <Searchbar /> */}
       <InstrumentsBoxes instruments={instruments.map((instrument) => instrument.node)} />
     </Layout>
   );

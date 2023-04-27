@@ -4,7 +4,7 @@ import { AiFillHeart } from 'react-icons/ai';
 const DevCredit = () => (
   <div className="flex">
     <span className="flex">
-      Coded with <AiFillHeart className="heart" style={{ marginTop: 4 }} /> by
+      Coded with <AiFillHeart className="heart" style={{ marginTop: 2 }} /> by
     </span>
     &nbsp;
     <a href="https://manjiltamang.com/" target="_blank" rel="noopener noreferrer" className="underline">

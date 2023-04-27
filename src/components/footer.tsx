@@ -28,7 +28,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="py-8 border-slate-300 border-t">
+    <footer className="py-8 bg-slate-100	">
       <div className="mx-auto max-w-[300px]">
         <form onSubmit={handleSubmit}>
           {submitted ? (
@@ -59,8 +59,8 @@ const Footer = () => {
         </form>
       </div>
       <div className="px-4 pt-6 flex flex-col md:flex-row justify-between text-center">
-        <p className="mb-1">Copyright &copy; {new Date().getFullYear()} CtrlEase </p>
-        <div className="md:mx-0 mx-auto">
+        <p className="mb-1 text-xs text-slate-500">Copyright &copy; {new Date().getFullYear()} CtrlEase </p>
+        <div className="md:mx-0 mx-auto text-xs text-slate-500">
           <DevCredit />
         </div>
       </div>
