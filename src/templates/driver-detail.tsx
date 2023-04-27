@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import { SEO } from '../components/seo';
-import { formatDate, getWordInitials, readingTimeInMin } from '../utils';
+import { formatDate, getWordInitials, instrumentBoxColors, readingTimeInMin } from '../utils';
 
 export default function DriverDetail({ data }: any) {
   const { html, frontmatter } = data.driver;
@@ -14,7 +14,9 @@ export default function DriverDetail({ data }: any) {
         <div className="">
           <div className="flex pb-6 mb-6 border-slate-300 border-b">
             <div
-              className={`shrink-0 w-14 h-14 mt-[6px] text-white font-bold text-center leading-[54px] rounded bg-emerald-500`}
+              className={`shrink-0 w-14 h-14 mt-[6px] text-white font-bold text-center leading-[54px] rounded ${
+                instrumentBoxColors[Math.floor(instrument.length % instrumentBoxColors.length)] || 'bg-emerald-500'
+              }`}
             >
               {getWordInitials(instrument)}
             </div>

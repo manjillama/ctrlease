@@ -1,3 +1,14 @@
+export const instrumentBoxColors = [
+  'bg-amber-400',
+  'bg-fuchsia-400',
+  'bg-red-500',
+  'bg-teal-500',
+  'bg-emerald-500',
+  'bg-purple-500',
+  'bg-cyan-500',
+  'bg-rose-400',
+];
+
 export const getWordInitials = (word: string) => {
   const wordArr = word.split(' ');
   return (word.split(' ')[0].charAt(0) + word.split(' ')[wordArr.length - 1].charAt(0)).toUpperCase();

@@ -1,19 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'gatsby-link';
 import { IInstrument } from '../interfaces';
-import { getWordInitials } from '../utils';
+import { getWordInitials, instrumentBoxColors } from '../utils';
 import { FiSearch } from 'react-icons/fi';
-
-const boxColors = [
-  'bg-amber-400',
-  'bg-fuchsia-400',
-  'bg-red-500',
-  'bg-teal-500',
-  'bg-emerald-500',
-  'bg-purple-500',
-  'bg-violet-500',
-  'bg-rose-400',
-];
 
 const InstrumentsBoxes = ({ instruments }: { instruments: IInstrument[] }) => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -42,8 +31,9 @@ const InstrumentsBoxes = ({ instruments }: { instruments: IInstrument[] }) => {
           <Link key={instrument.slug} to={`/instruments/${instrument.slug}`}>
             <div className="my-8 flex mr-4">
               <div
-                className={`shrink-0 w-12 h-12 mt-[6px] text-white font-bold text-center leading-[48px] rounded ${
-                  boxColors[Math.floor(instrument.name.length % boxColors.length)] || 'bg-emerald-500'
+                className={`shrink-0 w-14 h-14 mt-[6px] text-white font-bold text-center leading-[54px] rounded ${
+                  instrumentBoxColors[Math.floor(instrument.name.length % instrumentBoxColors.length)] ||
+                  'bg-emerald-500'
                 }`}
               >
                 {getWordInitials(instrument.name)}
