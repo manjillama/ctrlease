@@ -1,42 +1,42 @@
 [
   {
     "name": "Power meters",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "description": "Devices for measuring optical power.",
     "slug": "power-meters"
   },
   {
     "name": "Camera",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "description": "Digital cameras for imaging.",
     "slug": "camera"
   },
   {
     "name": "Laser",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "description": "Lasers for a wide variety of wavelengths.",
     "slug": "laser"
   },
   {
     "name": "Oscilloscope",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "description": "Devices to measuring electrical signals over time.",
     "slug": "oscilloscope"
   },
   {
     "name": "Linear Stages",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "description": "Various linear and piezeo stages for motion control.",
     "slug": "linear-stages"
   },
   {
     "name": "Polarization Controllers",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "description": "Devices for changing polarization states of light.",
     "slug": "polarization-controllers"
   },
   {
     "name": "Sensors",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "description": "Digital cameras for imaging.",
     "slug": "sensors"
   },
   {
     "name": "Optical Spectrum Analyzers",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "description": "Devices for measuring optical power distributions.",
     "slug": "optical-spectrum-analyzers"
   }
 ]

@@ -9,16 +9,34 @@ body {
 .driver-detail h1 {
   font-weight: bold;
   font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 .driver-detail h2 {
   font-weight: bold;
   font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 .driver-detail h3 {
   font-weight: bold;
   font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
-
+.driver-detail p {
+  margin-bottom: 0.5rem;
+}
+.driver-detail ul {
+  list-style-type: disc;
+  padding-left: 1rem;
+}
+.driver-detail a {
+  color: #0369a1;
+}
+.driver-detail a:hover {
+  text-decoration: underline;
+}
 .heart {
   color: #eb5e28;
   animation: hearthing 1s ease infinite;

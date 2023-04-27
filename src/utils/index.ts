@@ -3,7 +3,7 @@ export const instrumentBoxColors = [
   '#84cc16',
   '#D95364',
   'bg-teal-500',
-  '#5BB194',
+  '#10b981',
   '#CD64DE',
   '#8F5EF0',
   '#0ea5e9',

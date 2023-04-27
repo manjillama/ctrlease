@@ -13,7 +13,7 @@ export default function DriverDetail({ data }: any) {
   return (
     <Layout>
       <div className="max-w-[1024px] mx-auto">
-        <div className="flex pb-6 border-slate-300 border-b">
+        <div className="flex pb-6 border-slate-200 border-b">
           <div
             style={{
               backgroundColor: `${
@@ -38,8 +38,8 @@ export default function DriverDetail({ data }: any) {
 }
 
 export const Head = ({ data }: any) => {
-  // const { title } = data.driver.frontmatter;
-  return <SEO />;
+  const { name } = data.instrument;
+  return <SEO title={`${name} | CtrlEase`} />;
 };
 
 export const query = graphql`

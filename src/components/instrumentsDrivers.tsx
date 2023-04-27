@@ -30,7 +30,7 @@ const InstrumentDrivers = ({ instrumentSlug }: { instrumentSlug: string }) => {
   if (drivers.length <= 0)
     return (
       <div className="text-center py-20">
-        <p className="font-bold mb-2">No drivers resources found.</p>
+        <p className="font-bold mb-2">No driver resources found.</p>
         <p className="text-slate-500 text-sm">
           Don't see what you're looking for?{' '}
           <Link to="/contact" className="text-sky-600 hover:text-sky-700	underline">

@@ -41,8 +41,8 @@ const InstrumentsBoxes = ({ instruments }: { instruments: IInstrument[] }) => {
                 {getWordInitials(instrument.name)}
               </div>
               <div className="pl-4">
-                <p className="font-bold">{instrument.name}</p>
-                <span className="text-slate-500 text-sm">{instrument.description}</span>
+                <p className="font-bold mb-0.5">{instrument.name}</p>
+                <p className="text-slate-500 text-sm leading-5">{instrument.description}</p>
               </div>
             </div>
           </Link>
