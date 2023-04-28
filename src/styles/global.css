@@ -38,7 +38,7 @@ body {
   text-decoration: underline;
 }
 .instrument-box:hover {
-  scale: 1.05;
+  transform: scale(1.05);
 }
 .heart {
   color: #eb5e28;
