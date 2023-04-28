@@ -29,7 +29,7 @@ const InstrumentsBoxes = ({ instruments }: { instruments: IInstrument[] }) => {
       <div className="grid grid-cols-1 sm:grid-cols-2 max-w-[768px] mx-auto pt-10">
         {filteredInstruments.map((instrument, i) => (
           <Link key={instrument.slug} to={`/instruments/${instrument.slug}`}>
-            <div className="my-8 flex mr-4">
+            <div className="my-8 flex mr-4 hover:scale-105 transition-all	">
               <div
                 style={{
                   backgroundColor: `${
