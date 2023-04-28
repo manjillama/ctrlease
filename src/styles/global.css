@@ -37,6 +37,9 @@ body {
 .driver-detail a:hover {
   text-decoration: underline;
 }
+.instrument-box:hover {
+  scale: 1.05;
+}
 .heart {
   color: #eb5e28;
   animation: hearthing 1s ease infinite;
@@ -58,6 +61,7 @@ body {
     transform: scale(1);
   }
 }
+/** GATSBY CODE COPY BUTTON **/
 .customButtonContainerClass {
   top: 38px !important;
   margin-right: 8px;

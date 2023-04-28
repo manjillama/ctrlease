@@ -31,7 +31,7 @@ const InstrumentsBoxes = ({ instruments }: { instruments: IInstrument[] }) => {
           <Link
             key={instrument.slug}
             to={`/instruments/${instrument.slug}`}
-            className="my-8 flex mr-4 hover:scale-105 transition-all block"
+            className="my-8 flex mr-4 transition-all block instrument-box"
           >
             <div
               style={{
