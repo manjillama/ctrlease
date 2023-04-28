@@ -33,7 +33,7 @@ const InstrumentDrivers = ({ instrumentSlug }: { instrumentSlug: string }) => {
         <p className="font-bold mb-2">No driver resources found.</p>
         <p className="text-slate-500 text-sm">
           Don't see what you're looking for?{' '}
-          <Link to="/contact" className="text-sky-600 hover:text-sky-700	underline">
+          <Link to="/contact" className="text-sky-600 hover:text-sky-700 hover:underline">
             Send us an email
           </Link>{' '}
           and our team will help you with it.

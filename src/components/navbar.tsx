@@ -11,16 +11,16 @@ const Navbar = () => (
             <img src={Logo} />
           </Link>
         </li>
-        <li className="inline-block">
+        {/* <li className="inline-block">
           <Link activeClassName="text-teal-700" className="hover:text-teal-700" to="/overview">
             Overview
           </Link>
+        </li> */}
+        <li className="inline-block">
+          <Link activeClassName="text-teal-700" className="hover:text-teal-700" to="/drivers">
+            Drivers
+          </Link>
         </li>
-        {/* <li className="inline-block">
-        <Link className="hover:text-teal-700" to="/drivers">
-          Drivers
-        </Link>
-      </li> */}
       </ul>
       <ul>
         <li>
