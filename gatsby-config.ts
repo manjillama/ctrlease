@@ -8,7 +8,7 @@ const config: GatsbyConfig = {
   siteMetadata: {
     title: `CtrlEase - Helping you communicate with your hardware.`,
     description: `We provide high-level APIs to access your hardware, making instrumentation accessible to any scientist and engineer. With reusable building blocks of code, scientists and engineers will spend less time interfacing with instruments but more time utilizing their devices.`,
-    image: `/meta-image.jpg`,
+    image: `/meta-img.jpg`,
     siteUrl: process.env.SITE_URL,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
