@@ -58,6 +58,7 @@ manufacturer: Thorlabs
 connectionType: USB
 application: Test and Measurement
 date: 2023-04-27
+githubURL: https://gist.github.com/manjillama/5038fb2885bcf9620f379b950dde6f2c
 instrument: Power meters
 instrumentSlug: power-meters
 ---
