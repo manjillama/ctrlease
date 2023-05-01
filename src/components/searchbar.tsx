@@ -40,7 +40,7 @@ const Searchbar = () => {
     setShowSuggestion(true);
   };
   const handleBlur = () => {
-    // setTimeout(() => setShowSuggestion(false), 10);
+    setTimeout(() => setShowSuggestion(false), 10);
   };
 
   return (
