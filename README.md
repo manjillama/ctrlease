@@ -2,12 +2,12 @@
 <img alt="CtrlEase" src="https://ctrlease.gatsbyjs.io/logo.svg" width="60" />
 </p>
 <h1 align="center">
-  CTRL EASE
+  CtrlEase
 </h1>
 
 # Project Introduction
 
-**CTRL EASE** aims to provide high-level APIs to access your hardware, making instrumentation accessible to any scientist and engineer. With reusable building blocks of code, scientists and engineers will spend less time interfacing with instruments but more time utilizing their devices.
+**CtrlEase** aims to provide high-level APIs to access your hardware, making instrumentation accessible to any scientist and engineer. With reusable building blocks of code, scientists and engineers will spend less time interfacing with instruments but more time utilizing their devices.
 
 Below you can find a documentation on how to add new instrument and drivers.
 
