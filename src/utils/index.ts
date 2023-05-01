@@ -7,6 +7,8 @@ export const instrumentBoxColors = [
   '#CD64DE',
   '#8F5EF0',
   '#0ea5e9',
+  '#FF8684',
+  '#9F9FA1'
 ];
 
 export const getWordInitials = (word: string) => {
