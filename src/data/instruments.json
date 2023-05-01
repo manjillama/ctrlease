@@ -38,5 +38,10 @@
     "name": "Optical Spectrum Analyzers",
     "description": "Devices for measuring optical power distributions.",
     "slug": "optical-spectrum-analyzers"
+  },
+    {
+    "name": "Light Sources",
+    "description": "Devices for producing visible or near-visible light for illumincation.",
+    "slug": "light-sources"
   }
 ]
