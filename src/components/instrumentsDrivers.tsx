@@ -12,11 +12,11 @@ const InstrumentDrivers = ({ instrumentSlug }: { instrumentSlug: string }) => {
           frontmatter {
             title
             slug
-            author
             manufacturer
+            date
+            author
             connectionType
             application
-            date
             instrument
             instrumentSlug
           }
@@ -24,6 +24,8 @@ const InstrumentDrivers = ({ instrumentSlug }: { instrumentSlug: string }) => {
       }
     }
   `);
+
+  console.log('Drivers', nodes);
 
   const drivers = nodes.filter((node: any) => node.frontmatter.instrumentSlug === instrumentSlug);
 

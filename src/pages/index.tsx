@@ -1,17 +1,9 @@
 import * as React from 'react';
-import { HeadFC, Link, PageProps } from 'gatsby';
+import { HeadFC, Link } from 'gatsby';
 import Layout from '../components/layout';
-import { graphql } from 'gatsby';
-import { IInstrument } from '../interfaces';
 import { SEO } from '../components/seo';
 
-const IndexPage: React.FC<
-  PageProps<{
-    allInstrumentsJson: { edges: { node: IInstrument }[] };
-  }>
-> = ({ data }) => {
-  const instruments = data.allInstrumentsJson.edges;
-
+const IndexPage: React.FC = () => {
   return (
     <Layout>
       <div className="max-w-[1024px] mx-auto py-12">
@@ -51,19 +43,5 @@ const IndexPage: React.FC<
 };
 
 export default IndexPage;
-
-export const query = graphql`
-  query GetAllInstruments {
-    allInstrumentsJson {
-      edges {
-        node {
-          name
-          description
-          slug
-        }
-      }
-    }
-  }
-`;
 
 export const Head: HeadFC = () => <SEO />;

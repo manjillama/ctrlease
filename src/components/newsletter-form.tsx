@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { Spinner } from './spinner';
-import { IoIosSend } from 'react-icons/io';
 
-const NewsletterForm = () => {
+const NewsletterForm = ({ footer }: { footer?: boolean }) => {
   const [email, setEmail] = useState('');
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -22,38 +21,75 @@ const NewsletterForm = () => {
         }),
       });
     } finally {
+      setEmail('');
       setSubmitting(false);
       setSubmitted(true);
     }
   };
 
+  if (footer)
+    return (
+      <form onSubmit={handleSubmit}>
+        {submitted ? (
+          <div className="text-center">
+            <p className="text-xl text-white">Subscribed!</p>
+            <span className="text-gray-500 text-sm">Awesome! We'll make sure to keep you close at all times.</span>
+          </div>
+        ) : (
+          <div>
+            <p className="text-center text-sm text-white">Subscribe to our newsletters.</p>
+            <input
+              required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              type="email"
+              placeholder="Email"
+              className="p-1 h-8 text-sm outline-teal-600 outline-2 border-2 border-white rounded w-full mr-2 my-2"
+            />
+            <button
+              className="py-1 px-2 h-8 bg-teal-600 rounded text-white text-center hover:bg-teal-700 disabled:bg-teal-600/75 text-sm w-full"
+              type="submit"
+              disabled={submitting}
+            >
+              {submitting ? <Spinner style={{ margin: '4px auto' }} /> : 'Subscribe'}
+            </button>
+          </div>
+        )}
+      </form>
+    );
+
   return (
     <form onSubmit={handleSubmit}>
       {submitted ? (
-        <div className="text-center">
-          <p className="text-xl text-white">Thank you!</p>
-          <span className="text-gray-500 text-sm">Awesome! We'll make sure to keep you close at all times.</span>
+        <div>
+          <h1 className="text-5xl font-bold mb-2">Subscribed</h1>
+          <p className="mb-4">Awesome! We'll make sure to keep you close at all times.</p>
         </div>
       ) : (
         <div>
-          <p className="text-center text-sm text-white">Subscribe to our newsletters.</p>
+          <h1 className="text-5xl font-bold mb-2">Newsletter</h1>
+          <p className="mb-4">Subscribe to our newsletters. Don't worry, we hate spam as much as you do.</p>
+        </div>
+      )}
+      <div className="max-w-xs">
+        <div>
           <input
             required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             type="email"
             placeholder="Email"
-            className="p-1 h-8 text-sm outline-teal-600 outline-2 border-2 border-white rounded w-full mr-2 my-2"
+            className="p-2 outline-teal-600 outline-2 border-2 border-slate-400 rounded mr-2 my-2 w-full"
           />
-          <button
-            className="py-1 px-2 h-8 bg-teal-600 rounded text-white text-center hover:bg-teal-700 disabled:bg-teal-600/75 text-sm w-full"
-            type="submit"
-            disabled={submitting}
-          >
-            {submitting ? <Spinner style={{ margin: '4px auto' }} /> : 'Subscribe'}
-          </button>
         </div>
-      )}
+        <button
+          className="py-2 px-6 bg-teal-600 rounded text-white text-center hover:bg-teal-700 disabled:bg-teal-600/75 w-36"
+          type="submit"
+          disabled={submitting}
+        >
+          {submitting ? <Spinner style={{ margin: '4px auto' }} /> : 'Subscribe'}
+        </button>
+      </div>
     </form>
   );
 };

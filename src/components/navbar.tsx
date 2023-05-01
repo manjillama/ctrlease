@@ -11,11 +11,11 @@ const Navbar = () => (
             <img src={Logo} />
           </Link>
         </li>
-        {/* <li className="inline-block">
-          <Link activeClassName="text-teal-700" className="hover:text-teal-700" to="/overview">
-            Overview
+        <li className="inline-block">
+          <Link activeClassName="text-teal-700" className="hover:text-teal-700" to="/tutorials">
+            Tutorials
           </Link>
-        </li> */}
+        </li>
         <li className="inline-block">
           <Link activeClassName="text-teal-700" className="hover:text-teal-700" to="/drivers">
             Drivers
@@ -24,8 +24,8 @@ const Navbar = () => (
       </ul>
       <ul>
         <li>
-          <Link to="/contact" className="bg-teal-600 text-white px-4 py-2.5 rounded hover:bg-teal-700">
-            Contact
+          <Link to="/newsletter" className="bg-teal-600 text-white px-4 py-2.5 rounded hover:bg-teal-700">
+            Subscribe
           </Link>
         </li>
       </ul>

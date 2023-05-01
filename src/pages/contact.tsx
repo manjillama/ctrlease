@@ -15,8 +15,8 @@ const ContactPage = () => (
       </p>
       <p className="flex items-center mb-4">
         <HiMail size={24} className="mr-2" />{' '}
-        <a href="mailto:hello@manjiltamang.com" className="hover:text-sky-500 underline">
-          hello@manjiltamang.com
+        <a href="mailto:hello@ctrlease.com" className="hover:text-sky-500 underline">
+          hello@ctrlease.com
         </a>
       </p>
       <p className="flex items-center mb-4">

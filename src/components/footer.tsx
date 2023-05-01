@@ -1,20 +1,29 @@
-import React, { useState } from 'react';
-import { Spinner } from './spinner';
+import React from 'react';
 import DevCredit from './dev-credit';
-import NewsletterForm from './newsletter-form';
-import Logo from '../images/logo.svg';
+import { HiMail } from 'react-icons/hi';
 
 const Footer = () => {
   return (
-    <footer className="py-10 bg-black">
+    <footer className="py-8 bg-black">
       <div className="mx-auto max-w-[1280px]">
-        <div className="mx-auto max-w-[250px]">
-          <NewsletterForm />
-        </div>
-        <div className="px-4 pt-6 flex flex-col md:flex-row justify-between text-center">
-          <p className="mb-1 text-xs text-gray-50">Copyright &copy; {new Date().getFullYear()} CtrlEase </p>
-          <div className="md:mx-0 mx-auto text-xs text-gray-50">
-            <DevCredit />
+        <div className="px-4 flex flex-col md:flex-row justify-between items-center">
+          <div className="text-xs text-gray-50 mb-1">
+            <a href="mailto:hello@ctrlease.com" className="hover:text-sky-500 flex items-center">
+              <HiMail size={16} className="mr-2" /> hello@ctrlease.com
+            </a>
+          </div>
+
+          <div>
+            <p className="mb-1 text-xs text-gray-50 text-center md:text-left">
+              Copyright &copy; {new Date().getFullYear()} CtrlEase
+            </p>
+          </div>
+          <div className="mb-1 text-xs text-gray-50 text-center md:text-left">
+            <div className="flex">
+              <div className="mx-auto">
+                <DevCredit />
+              </div>
+            </div>
           </div>
         </div>
       </div>

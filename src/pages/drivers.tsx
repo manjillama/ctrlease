@@ -5,6 +5,7 @@ import { graphql } from 'gatsby';
 import { IInstrument } from '../interfaces';
 import InstrumentsBoxes from '../components/instruments-box';
 import { SEO } from '../components/seo';
+import Searchbar from '../components/searchbar';
 
 const DriversPage: React.FC<
   PageProps<{
@@ -19,7 +20,7 @@ const DriversPage: React.FC<
         <div className="text-2xl font-bold">Devices</div>
         <p className="text-slate-500">Helping you communicate with your hardware.</p>
       </div>
-      {/* <Searchbar /> */}
+      <Searchbar />
       <InstrumentsBoxes instruments={instruments.map((instrument) => instrument.node)} />
     </Layout>
   );
