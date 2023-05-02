@@ -51,7 +51,7 @@ const Searchbar = () => {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           type="text"
-          placeholder="Seach available drivers e.g. PM100D or Power Meters"
+          placeholder="Seach available drivers by typing... power meter, laser"
           className="p-2 pr-8 outline-teal-600 border-2 border-slate-400 rounded w-full"
         />
         <FiSearch className="absolute right-[8px] top-[12px] right-0" size={20} />
