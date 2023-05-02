@@ -19,7 +19,7 @@ const InstrumentsBoxes = ({ instruments }: { instruments: IInstrument[] }) => {
                   instrumentBoxColors[Math.floor(instrument.name.length % instrumentBoxColors.length)] || '#5BB194'
                 }`,
               }}
-              className={`shrink-0 w-14 h-14 mt-[6px] text-white font-bold text-center leading-[54px] rounded `}
+              className={`shrink-0 w-14 h-14 mt-[6px] text-white font-bold text-center leading-[54px] rounded`}
             >
               {getWordInitials(instrument.name)}
             </div>
