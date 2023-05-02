@@ -43,5 +43,23 @@
     "name": "Light Sources",
     "description": "Devices for producing visible or near-visible light for illumincation.",
     "slug": "light-sources"
+  },
+    {
+    "name": "Motorized Stages",
+    "description": "Various stepper, servo, and piezeo stages for motion control.",
+    "slug": "motorized-stages"
+  },
+    {
+    "name": "Liquid Crystal",
+    "description": "Various devices for electrically modulating optical properties.",
+    "slug": "liquid-crystal"
+  },
+  {
+    "name": "Communications",
+    "description": "Electronic and optical devices to transmit and receive information.",
+    "slug": "communications"
   }
+
+
+
 ]

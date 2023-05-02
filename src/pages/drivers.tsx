@@ -18,7 +18,7 @@ const DriversPage: React.FC<
     <Layout>
       <div className="text-center pb-10">
         <div className="text-2xl font-bold">Devices</div>
-        <p className="text-slate-500">Helping you communicate with your hardware.</p>
+        <p className="text-slate-500">APIs to help you communicate with your hardware</p>
       </div>
       <Searchbar />
       <InstrumentsBoxes instruments={instruments.map((instrument) => instrument.node)} />
