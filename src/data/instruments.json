@@ -1,6 +1,6 @@
 [
   {
-    "name": "Power meters",
+    "name": "Power Meters",
     "description": "Devices for measuring optical power.",
     "slug": "power-meters"
   },
@@ -10,9 +10,14 @@
     "slug": "camera"
   },
   {
-    "name": "Laser",
-    "description": "Lasers for a wide variety of wavelengths.",
-    "slug": "laser"
+    "name": "Lasers",
+    "description": "Lasers for a range of wavelengths.",
+    "slug": "lasers"
+  },
+  {
+    "name": "CNC Machines",
+    "description": "Computer controlled machines for fabrication.",
+    "slug": "cnc-machines"
   },
   {
     "name": "Oscilloscope",
@@ -20,36 +25,31 @@
     "slug": "oscilloscope"
   },
   {
-    "name": "Linear Stages",
-    "description": "Various linear and piezeo stages for motion control.",
-    "slug": "linear-stages"
-  },
-  {
-    "name": "Polarization Controllers",
-    "description": "Devices for changing polarization states of light.",
-    "slug": "polarization-controllers"
-  },
-  {
     "name": "Sensors",
     "description": "Digital cameras for imaging.",
     "slug": "sensors"
   },
   {
-    "name": "Optical Spectrum Analyzers",
-    "description": "Devices for measuring optical power distributions.",
-    "slug": "optical-spectrum-analyzers"
+    "name": "Optical Amplifiers",
+    "description": "Devices for amplifying optical signals.",
+    "slug": "optical-amplifiers"
   },
-    {
+  {
     "name": "Light Sources",
     "description": "Devices for producing visible or near-visible light for illumincation.",
     "slug": "light-sources"
   },
-    {
+  {
     "name": "Motorized Stages",
     "description": "Various stepper, servo, and piezeo stages for motion control.",
     "slug": "motorized-stages"
   },
-    {
+  {
+    "name": "Temperature Control",
+    "description": "Devices for controlling and monitoring temperature.",
+    "slug": "temperature-control"
+  },
+  {
     "name": "Liquid Crystal",
     "description": "Various devices for electrically modulating optical properties.",
     "slug": "liquid-crystal"
@@ -58,8 +58,15 @@
     "name": "Communications",
     "description": "Electronic and optical devices to transmit and receive information.",
     "slug": "communications"
+  },
+  {
+    "name": "Polarization Optics",
+    "description": "Devices to manipulate and sense polarization states of light.",
+    "slug": "polarization-optics"
+  }, 
+  {
+    "name": "Spectrometers",
+    "description": "Measures spectral properties of light.",
+    "slug": "spectrometers"
   }
-
-
-
 ]

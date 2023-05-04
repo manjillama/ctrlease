@@ -60,7 +60,7 @@ const TutorialPage = () => (
         Our platform brings similar convenience and flexibility to the hardware domain. 
         With pre-built templates, users spend less time interfacing with their devices and more time using them for research and development projects in a modern, browser-based user interface. </p>
 
-      <h1 id="communication-protocols" className="text-2xl font-bold mt-5 mb-2">Communication Protocols for Scientific Instruments</h1>
+      <h1 id="communication-protocols" className="text-2xl font-bold mt-5 mb-2">Communication Protocols</h1>
         <p className="mb-2">When it comes to communicating with scientific instruments, there are a bunch of different ways to make it happen. 
         Over the years, people have used a variety of communication protocols to help computers and instruments work together. 
         Our hardware APIs use more than one communication protocols listed below.
