@@ -9,6 +9,10 @@ export const instrumentBoxColors = [
   '#0ea5e9',
   '#FF8684',
   '#9F9FA1',
+  // '#202124',
+  // '#FF8684',
+  // '#9F9FA1',
+  // 2588f00 (Added tutorial section)
 ];
 
 export const getWordInitials = (word: string) => {
