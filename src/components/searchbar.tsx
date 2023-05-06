@@ -29,9 +29,8 @@ const Searchbar = () => {
     setFilteredDrivers(() =>
       drivers.filter(
         (driver: any, idx: number) =>
-          (driver.frontmatter.title.toLowerCase().includes(searchTerm.trim().toLowerCase()) ||
-            driver.frontmatter.instrument.toLowerCase().includes(searchTerm.trim().toLowerCase())) &&
-          idx < 8,
+          driver.frontmatter.title.toLowerCase().includes(searchTerm.trim().toLowerCase()) ||
+          driver.frontmatter.instrument.toLowerCase().includes(searchTerm.trim().toLowerCase()),
       ),
     );
   }, [searchTerm]);

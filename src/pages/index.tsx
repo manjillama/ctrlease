@@ -3,7 +3,6 @@ import { HeadFC, Link } from 'gatsby';
 import Layout from '../components/layout';
 import { SEO } from '../components/seo';
 
-
 const IndexPage: React.FC = () => {
   return (
     <Layout>
@@ -16,9 +15,7 @@ const IndexPage: React.FC = () => {
             with instruments but more time utilizing their devices.
           </p>
 
-          <h2 className="text-lg font-semibold mb-4 text-teal-500">
-          Automating hardware shouldn&apos;t be a chore!
-        </h2>
+          <h2 className="text-lg font-semibold mb-4 text-teal-500">Automating hardware shouldn&apos;t be a chore!</h2>
           <p>
             Learn how to speed up your product development cycle today.{' '}
             <Link to="/contact" className="text-teal-600 hover:text-teal-500 hover:underline">
@@ -42,7 +39,7 @@ const IndexPage: React.FC = () => {
           </Link>
         </div>
         <div>
-        {/* <h2 className="text-2xl font-bold mb-4">Application Areas</h2>
+          {/* <h2 className="text-2xl font-bold mb-4">Application Areas</h2>
         <ol>
           <li className="mb-4"> Metrology</li>
           <li className="mb-4"> Advanced manufacturing</li>
@@ -54,77 +51,75 @@ const IndexPage: React.FC = () => {
           <li className="mb-4"> Light measurement</li>
         </ol> */}
 
-        <h2 className="text-2xl font-bold mb-4">Application Areas</h2>
-        <ol className="grid grid-cols-4 gap-4">
-          <li className="mb-4 p-4 bg-gray-0 rounded shadow">
-            <div className="flex items-center space-x-3">
-              <span role="img" aria-label="ruler" className="text-2xl">
-                📏
-              </span>
-              <span>Metrology</span>
-            </div>
-          </li>
-          <li className="mb-4 p-4 bg-gray-0 rounded shadow">
-            <div className="flex items-center space-x-3">
-              <span role="img" aria-label="factory" className="text-2xl">
-                🏭
-              </span>
-              <span>Advanced manufacturing</span>
-            </div>
-          </li>
-          <li className="mb-4 p-4 bg-gray-0 rounded shadow">
-            <div className="flex items-center space-x-3">
-              <span role="img" aria-label="lightbulb" className="text-2xl">
-                💡
-              </span>
-              <span>Photonics</span>
-            </div>
-          </li>
-          <li className="mb-4 p-4 bg-gray-0 rounded shadow">
-            <div className="flex items-center space-x-3">
-              <span role="img" aria-label="eye" className="text-2xl">
-                👁️
-              </span>
-              <span>Machine vision</span>
-            </div>
-          </li>
-          <li className="mb-4 p-4 bg-gray-0 rounded shadow">
-            <div className="flex items-center space-x-3">
-              <span role="img" aria-label="brain" className="text-2xl">
-                🧠
-              </span>
-              <span>Optogenetics</span>
-            </div>
-          </li>
-          <li className="mb-4 p-4 bg-gray-0 rounded shadow">
-            <div className="flex items-center space-x-3">
-              <span role="img" aria-label="chart" className="text-2xl">
-                📊
-              </span>
-              <span>Spectroscopy</span>
-            </div>
-          </li>
-          <li className="mb-4 p-4 bg-gray-0 rounded shadow">
-            <div className="flex items-center space-x-3">
-              <span role="img" aria-label="gear" className="text-2xl">
-                ⚙️
-              </span>
-              <span>Optomechanics</span>
-            </div>
-          </li>
-          <li className="mb-4 p-4 bg-gray-0 rounded shadow">
-            <div className="flex items-center space-x-3">
-              <span role="img" aria-label="sun" className="text-2xl">
-                ☀️
-              </span>
-              <span>Light measurement</span>
-            </div>
-          </li>
-
+          <h2 className="text-2xl font-bold mb-4">Application Areas</h2>
+          <ol className="grid grid-cols sm:grid-cols-2 md:grid-cols-4 gap-4">
+            <li className="mb-4 p-4 bg-gray-0 rounded shadow">
+              <div className="flex items-center space-x-3 h-full">
+                <span role="img" aria-label="ruler" className="text-2xl">
+                  📏
+                </span>
+                <span>Metrology</span>
+              </div>
+            </li>
+            <li className="mb-4 p-4 bg-gray-0 rounded shadow">
+              <div className="flex items-center space-x-3 h-full">
+                <span role="img" aria-label="factory" className="text-2xl">
+                  🏭
+                </span>
+                <span>Advanced manufacturing</span>
+              </div>
+            </li>
+            <li className="mb-4 p-4 bg-gray-0 rounded shadow">
+              <div className="flex items-center space-x-3 h-full">
+                <span role="img" aria-label="lightbulb" className="text-2xl">
+                  💡
+                </span>
+                <span>Photonics</span>
+              </div>
+            </li>
+            <li className="mb-4 p-4 bg-gray-0 rounded shadow">
+              <div className="flex items-center space-x-3 h-full">
+                <span role="img" aria-label="eye" className="text-2xl">
+                  👁️
+                </span>
+                <span>Machine vision</span>
+              </div>
+            </li>
+            <li className="mb-4 p-4 bg-gray-0 rounded shadow">
+              <div className="flex items-center space-x-3 h-full">
+                <span role="img" aria-label="brain" className="text-2xl">
+                  🧠
+                </span>
+                <span>Optogenetics</span>
+              </div>
+            </li>
+            <li className="mb-4 p-4 bg-gray-0 rounded shadow">
+              <div className="flex items-center space-x-3 h-full">
+                <span role="img" aria-label="chart" className="text-2xl">
+                  📊
+                </span>
+                <span>Spectroscopy</span>
+              </div>
+            </li>
+            <li className="mb-4 p-4 bg-gray-0 rounded shadow">
+              <div className="flex items-center space-x-3 h-full">
+                <span role="img" aria-label="gear" className="text-2xl">
+                  ⚙️
+                </span>
+                <span>Optomechanics</span>
+              </div>
+            </li>
+            <li className="mb-4 p-4 bg-gray-0 rounded shadow">
+              <div className="flex items-center space-x-3 h-full">
+                <span role="img" aria-label="sun" className="text-2xl">
+                  ☀️
+                </span>
+                <span>Light measurement</span>
+              </div>
+            </li>
           </ol>
+        </div>
       </div>
-      </div>
-
     </Layout>
   );
 };

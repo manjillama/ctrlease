@@ -22,9 +22,15 @@ const DriversPage: React.FC<
       </div>
       <Searchbar />
       <InstrumentsBoxes instruments={instruments.map((instrument) => instrument.node)} />
-      <div className="text-center pb-10">
-        <p className="text-slate-500">Don't see your device in this list? Please
-         <Link to="/contact" className="text-teal-600 hover:text-teal-500 hover:underline"> contact us</Link> us and we'll add more!</p>
+      <div className="text-center py-10">
+        <p className="text-slate-500">
+          Don't see your device in this list? Please
+          <Link to="/contact" className="text-teal-600 hover:text-teal-500 hover:underline">
+            {' '}
+            contact us
+          </Link>{' '}
+          us and we'll add more!
+        </p>
       </div>
     </Layout>
   );
