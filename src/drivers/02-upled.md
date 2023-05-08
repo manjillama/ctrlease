@@ -6,6 +6,7 @@ manufacturer: Thorlabs
 connectionType: USB
 application: Optogenetics
 date: 2023-04-27
+githubURL: https://github.com/kharelpk/OpenHardwareAPI/blob/main/light_sources/tlup.py
 instrument: Light Sources
 instrumentSlug: light-sources
 ---

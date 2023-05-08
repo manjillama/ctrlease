@@ -17,7 +17,7 @@ const IndexPage: React.FC = () => {
 
           <h2 className="text-lg font-semibold mb-4 text-teal-500">Automating hardware shouldn&apos;t be a chore!</h2>
           <p>
-            Learn how to speed up your product development cycle today.{' '}
+            Learn how to speed up your product development cycle today by trying out our AI powered automation.{' '}
             <Link to="/contact" className="text-teal-600 hover:text-teal-500 hover:underline">
               Contact us
             </Link>{' '}
@@ -25,10 +25,16 @@ const IndexPage: React.FC = () => {
           </p>
         </div>
         <div className="grid md:grid-cols-2 md:gap-24 gap-4 my-8">
-          <Link to="/tutorials">
+          {/* <Link to="/tutorials">
             <div className="bg-[#202124] p-4 rounded text-white h-40 hover:shadow-xl transition-all">
               <h3 className="font-bold mb-2 text-lg">Tutorials</h3>
               <p>Helping you get up to speed</p>
+            </div>
+          </Link> */}
+          <Link to="https://ctrlease.netlify.app">
+            <div className="bg-[#202124] p-4 rounded text-white h-40 hover:shadow-xl transition-all">
+              <h3 className="font-bold mb-2 text-lg">AI POWERED AUTOMATION</h3>
+              <p>Generate code to orchestrate automation</p>
             </div>
           </Link>
           <Link to="/drivers">
@@ -37,6 +43,7 @@ const IndexPage: React.FC = () => {
               <p>Look up supported instruments</p>
             </div>
           </Link>
+
         </div>
         <div>
           {/* <h2 className="text-2xl font-bold mb-4">Application Areas</h2>
@@ -66,7 +73,7 @@ const IndexPage: React.FC = () => {
                 <span role="img" aria-label="factory" className="text-2xl">
                   🏭
                 </span>
-                <span>Advanced manufacturing</span>
+                <span>Semiconductor manufacturing</span>
               </div>
             </li>
             <li className="mb-4 p-4 bg-gray-0 rounded shadow">

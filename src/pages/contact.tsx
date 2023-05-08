@@ -16,11 +16,11 @@ const ContactPage = () => (
       <p className="flex items-center mb-4">
         <HiMail size={24} className="mr-2" />{' '}
         <a href="mailto:hello@ctrlease.com" className="hover:text-sky-500 underline">
-          hello@ctrlease.com
+          prash@ctrlease.com
         </a>
       </p>
       <p className="flex items-center mb-4">
-        <HiLocationMarker size={24} className="mr-2" /> <span>1027 Flatbush Ave, Brooklyn, NY 11226</span>
+        <HiLocationMarker size={24} className="mr-2" /> <span>Boston, MA, USA</span>
       </p>
     </div>
   </Layout>

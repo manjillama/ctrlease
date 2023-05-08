@@ -6,7 +6,7 @@ manufacturer: IDS Imaging
 connectionType: USB
 application: Machine vision
 date: 2023-05-03
-githubURL: https://gist.github.com/manjillama/5038fb2885bcf9620f379b950dde6f2c
+githubURL: https://github.com/kharelpk/OpenHardwareAPI/blob/main/cameras/ueyecam.py
 instrument: Camera
 instrumentSlug: camera
 ---
