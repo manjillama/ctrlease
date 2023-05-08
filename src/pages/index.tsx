@@ -31,7 +31,7 @@ const IndexPage: React.FC = () => {
               <p>Helping you get up to speed</p>
             </div>
           </Link> */}
-          <Link to="/">
+          <Link to="https://ctrlease.netlify.app">
             <div className="bg-[#202124] p-4 rounded text-white h-40 hover:shadow-xl transition-all">
               <h3 className="font-bold mb-2 text-lg">AI POWERED AUTOMATION</h3>
               <p>Generate code to orchestrate automation</p>
