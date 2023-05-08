@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="px-4 flex flex-col md:flex-row justify-between items-center">
           <div className="text-xs text-gray-50 mb-1">
             <a href="mailto:hello@ctrlease.com" className="hover:text-sky-500 flex items-center">
-              <HiMail size={16} className="mr-2" /> hello@ctrlease.com
+              <HiMail size={16} className="mr-2" /> prash@ctrlease.com
             </a>
           </div>
 
@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="mb-1 text-xs text-gray-50 text-center md:text-left">
             <div className="flex">
               <div className="mx-auto">
-                <DevCredit />
+                {/* <DevCredit /> */}
               </div>
             </div>
           </div>

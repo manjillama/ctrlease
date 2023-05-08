@@ -39,6 +39,7 @@ export default function DriverDetail({ data }: any) {
         <div>
           {githubURL && (
             <div className="mb-2 flex justify-end">
+             <p>Github Link </p> 
               <a href={githubURL} target="_black" rel="noopener noreferrer">
                 <AiFillGithub size={26} />
               </a>

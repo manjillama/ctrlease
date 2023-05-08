@@ -6,6 +6,7 @@ manufacturer: Pure-photonics
 connectionType: USB
 application: Telecommunications
 date: 2023-05-03
+githubURL: https://github.com/kharelpk/OpenHardwareAPI/blob/main/lasers/itla.py
 instrument: Lasers
 instrumentSlug: lasers
 ---

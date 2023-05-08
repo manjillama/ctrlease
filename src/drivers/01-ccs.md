@@ -6,6 +6,7 @@ manufacturer: Thorlabs
 connectionType: USB
 application: Metrology
 date: 2023-04-27
+githubURL: https://github.com/kharelpk/OpenHardwareAPI/blob/main/spectrometers/tlccs.py
 instrument: Spectrometers
 instrumentSlug: spectrometers
 ---

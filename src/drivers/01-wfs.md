@@ -6,6 +6,7 @@ manufacturer: Thorlabs
 connectionType: USB
 application: Imaging
 date: 2023-04-27
+githubURL: https://github.com/kharelpk/OpenHardwareAPI/blob/main/sensors/wfs.py
 instrument: Sensors
 instrumentSlug: sensors
 ---

@@ -6,6 +6,7 @@ manufacturer: Openbuilds
 connectionType: USB
 application: Protoyping
 date: 2023-04-27
+githubURL: https://github.com/kharelpk/OpenHardwareAPI/blob/main/cnc_machines/cbeam.py
 instrument: CNC Machines
 instrumentSlug: cnc-machines
 ---
