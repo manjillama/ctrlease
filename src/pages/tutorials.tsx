@@ -30,6 +30,7 @@ import { SEO } from '../components/seo';
 import Layout from '../components/layout';
 import ArchImage from '../images/architecture_summary.png'
 import CodeBlock from '../components/codeblock'; // Import the CodeBlock component
+import References from '../components/references';
 
 
 const TutorialPage = () => (
@@ -41,6 +42,7 @@ const TutorialPage = () => (
           <li className="mb-2"><a href="#introduction" className="text-gray-500 hover:text-teal-500">Introduction</a></li>
           <li className="mb-2"><a href="#communication-protocols" className="text-gray-500 hover:text-teal-500">Communication Protocols</a></li>
           <li className="mb-2"><a href="#find-resources" className="text-gray-500 hover:text-teal-500">How to find device address</a></li>
+          <li className="mb-2"><a href="#find-resources" className="text-gray-500 hover:text-teal-500">References</a></li>
         </ul>
       </aside>
       <div className="w-3/4 pl-4">
@@ -102,7 +104,9 @@ for resource in resources:
         <p>
           The `pyvisa` library allows you to interact with various resources, such as serial, USB, and GPIB devices.
         </p>
+        <References />
       </div>
+
     </div>
   </Layout>
 );
