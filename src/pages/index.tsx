@@ -2,26 +2,39 @@ import * as React from 'react';
 import { HeadFC, Link } from 'gatsby';
 import Layout from '../components/layout';
 import { SEO } from '../components/seo';
+import MainImage from '../images/main_image.svg'
 
 const IndexPage: React.FC = () => {
   return (
     <Layout>
-      <div className="max-w-[1024px] mx-auto py-12">
+      <div className="max-w-[1024px] mx-auto py-0">
         <div>
+
           <h1 className="text-2xl font-bold mb-4">Overview</h1>
           <p className="mb-4">
-            We provide high-level APIs to access your hardware, making instrumentation accessible to any scientist and
+            {/* We provide high-level APIs to access your hardware, making instrumentation accessible to any scientist and
             engineer. With reusable building blocks of code, scientists and engineers will spend less time interfacing
-            with instruments but more time utilizing their devices.
+            with instruments but more time utilizing their devices. */}
+            We provide an intelligent software platform that simplifies and automates hardware control, saving time and effort for researchers and engineers. With our high-level, user-friendly APIs, hardware interaction becomes seamless, freeing up more time for innovative work. Our platform is adaptable across industries, customizable, and continuously updated to support a broad array of devices, showcasing our commitment to flexibility, efficiency, and your success.
           </p>
+          <Link to="/">
+            <img src={MainImage} className="mx-auto block mb-4 mt-0" />
+          </Link>
 
-          <h2 className="text-lg font-semibold mb-4 text-teal-500">Automating hardware shouldn&apos;t be a chore!</h2>
+          <h2 className="text-lg font-semibold mb-4 text-teal-600">Automating hardware shouldn&apos;t be a chore!</h2>
           <p>
-            Learn how to speed up your product development cycle today by trying out our AI powered automation.{' '}
+            Learn how to speed up your product development cycle today by trying out our 👉
+            <Link to="https://ctrlease.netlify.app" className="text-rose-400 font-bold hover:text-teal-500 hover:underline">
+              AI powered automation
+            </Link>.
+            If you want to interface with any other device or module, please feel free to {' '}
             <Link to="/contact" className="text-teal-600 hover:text-teal-500 hover:underline">
-              Contact us
+              contact us. 
             </Link>{' '}
-            if you want to interface with any device or module.
+            Also do not forget to 
+            {' '}<Link to="/subscribe" className="text-teal-600 hover:text-teal-500 hover:underline">
+              subscribe 
+            </Link>{' '} to our newsletter to get the latest updates!
           </p>
         </div>
         <div className="grid md:grid-cols-2 md:gap-24 gap-4 my-8">
@@ -32,14 +45,14 @@ const IndexPage: React.FC = () => {
             </div>
           </Link> */}
           <Link to="https://ctrlease.netlify.app">
-            <div className="bg-[#202124] p-4 rounded text-white h-40 hover:shadow-xl transition-all">
+            <div className="bg-teal-600 p-4 rounded text-white h-40 hover:shadow-xl transition-all">
               <h3 className="font-bold mb-2 text-lg">AI POWERED AUTOMATION</h3>
               <p>Generate code to orchestrate automation</p>
             </div>
           </Link>
           <Link to="/drivers">
-            <div className="bg-[#009688] p-4 rounded text-white h-40 hover:shadow-xl transition-all">
-              <h3 className="font-bold mb-2 text-lg">Drivers</h3>
+            <div className="bg-[#202124] p-4 rounded text-white h-40 hover:shadow-xl transition-all">
+              <h3 className="font-bold mb-2 text-lg">Devices</h3>
               <p>Look up supported instruments</p>
             </div>
           </Link>
