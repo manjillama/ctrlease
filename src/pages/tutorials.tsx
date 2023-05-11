@@ -35,8 +35,8 @@ import References from '../components/references';
 
 const TutorialPage = () => (
   <Layout>
-    <div className="max-w-[1024px] mx-auto py-20 flex relative">
-      <aside className="w-1/4 pr-4 sticky top-20 h-screen">
+    <div className="max-w-[1024px] mx-auto py-0 flex relative">
+      <aside className="w-1/4 pr-4 sticky top-0 h-screen">
         <h2 className="text-lg font-bold mb-4">Tutorials</h2>
         <ul className="text-sm font-normal">
           <li className="mb-2"><a href="#introduction" className="text-gray-500 hover:text-teal-500">Introduction</a></li>
@@ -47,7 +47,7 @@ const TutorialPage = () => (
       </aside>
       <div className="w-3/4 pl-4">
         <h1 id="introduction" className="text-2xl font-bold mb-4">Introduction</h1>
-        <p className="mb-2">The <Link to="/drivers" className="text-teal-600 hover:text-teal-500 hover:underline"> Drivers</Link> section currently provides examples of opensource hardware APIs to control a range of scientific instruments. For each device, you can follow the Github link and download drivers to try it for yourself! 
+        <p className="mb-2">The <Link to="/drivers" className="text-teal-600 hover:text-teal-500 hover:underline"> Devices</Link> section currently provides examples of opensource hardware APIs to control a range of scientific instruments. For each device, you can follow the Github link and download drivers to try it for yourself! 
             We are actively working on adding more drivers to this list and supporting more languages. 
             </p>
         <p className="mb-2">These easy-to-use APIs are implemented as abstractions to low-level drivers and communication protocols used to interact with scientific instruments. 
@@ -62,6 +62,18 @@ const TutorialPage = () => (
         Our platform brings similar convenience and flexibility to the hardware domain. 
         With pre-built templates, users spend less time interfacing with their devices and more time using them for research and development projects in a modern, browser-based user interface. </p>
 
+        <p className="mb-2">Users can save a lot of time using our
+        <Link to="https://ctrlease.netlify.app/" className="text-teal-600 hover:text-teal-500 hover:underline"> AI-Powered Automation Workflow. </Link> 
+        This intelligent functionality allows users to generate automation scripts for a wide variety of devices such as motorized stages, 
+        lasers, sensors, cameras, and more. Users simply need to input specific prompts based on the devices currently supported. 
+        For example, a prompt could be as simple as "Home the CNC machine, and take a picture using the ueye camera after homing." 
+        Alternatively, it can handle more complex instructions, like "I have two Thorlabs stages with brushless DC motor controllers. 
+        I am using the Pure Photonics laser and measuring optical power using a Thorlabs power meter.
+         I want to run gradient search optimization on the two stages to maximize optical power." 
+         The platform swiftly responds with a Python script and additional code information. 
+         This AI-driven process drastically cuts down time previously spent on writing drivers and generating code, making hardware automation swift, efficient, and user-friendly.</p>
+      
+      
       <h1 id="communication-protocols" className="text-2xl font-bold mt-5 mb-2">Communication Protocols</h1>
         <p className="mb-2">When it comes to communicating with scientific instruments, there are a bunch of different ways to make it happen. 
         Over the years, people have used a variety of communication protocols to help computers and instruments work together. 

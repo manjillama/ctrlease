@@ -18,7 +18,7 @@ const Navbar = () => (
         </li>
         <li className="inline-block">
           <Link activeClassName="text-teal-700" className="hover:text-teal-700" to="/drivers">
-            Drivers
+            Devices
           </Link>
         </li>
       </ul>
