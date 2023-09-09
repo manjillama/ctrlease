@@ -18,13 +18,13 @@ const Footer = () => {
               Copyright &copy; {new Date().getFullYear()} CtrlEase
             </p>
           </div>
-          <div className="mb-1 text-xs text-gray-50 text-center md:text-left">
+          {/* <div className="mb-1 text-xs text-gray-50 text-center md:text-left">
             <div className="flex">
               <div className="mx-auto">
-                {/* <DevCredit /> */}
+                <DevCredit />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
